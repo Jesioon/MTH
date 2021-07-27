@@ -1,0 +1,281 @@
+main {
+    flex-grow: 1;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.aboutUs h1,
+.inwestments h1,
+.realization h1,
+.onSale h1,
+.errorPage h1,
+.contact h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+span.big {
+    font-weight: bold;
+}
+
+span.spanError {
+    color: red;
+}
+
+#contactButton {
+    position: fixed;
+    top: 30vh;
+    right: 0;
+    background-color: #1F6DE0;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border: none;
+    transition: .3s;
+    animation: buttonDisplay 1s 1 ease;
+}
+
+#contactButton a {
+    display: block;
+    cursor: pointer;
+    font-size: 19px;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+#contactButton:hover {
+    background-color: #0D2674;
+}
+
+#contactButton:hover a {
+    font-size: 22px;
+}
+
+@keyframes buttonDisplay {
+    from {
+        right: -300px;
+    }
+
+    to {
+        right: 0;
+    }
+}
+
+/* onSale Page */
+
+/* .onSale img {
+    width: 100%;
+} */
+
+/* AboutUs Page */
+
+.aboutUs article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e7e8d1;
+    padding: 15px;
+}
+
+.aboutUs article img {
+    display: block;
+    width: 45%;
+    height: 100%;
+}
+
+.aboutUs article p {
+    width: 45%;
+    font-size: 21px;
+    text-align: justify;
+}
+
+/* Inwestments page */
+
+.inwestments article section {
+    background-color: #fcf6f5ff;
+}
+
+.inwestments article section:nth-child(1) {
+    padding-top: 10px;
+    padding-bottom: 70px;
+
+    color: #89abe3ff;
+}
+
+.inwestments article section h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    /* margin-top: 50px; */
+}
+
+.inwestments article section p {
+    font-size: 22px;
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.inwestments article section.images {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+
+
+.inwestments article section img {
+    max-height: 500px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Realization Page */
+
+.realization h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.realization p {
+    font-size: 16px;
+}
+
+/* BuyGrounds Page */
+
+.buy {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1868ae;
+    padding: 15px 25px;
+}
+
+.buy section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buy p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.buy ul {
+    padding-left: 35px;
+}
+
+.buy ul li {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.buy ul+p {
+    padding-top: 30px;
+}
+
+
+.buy img {
+    display: block;
+    width: 50%;
+}
+
+/* Contact Page */
+
+.contact .contactMethods {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact section.contactSection:nth-child(1) {
+    border-right: 2px solid black;
+    flex-basis: 35%;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 28px;
+    line-height: 2;
+}
+
+.contact form div.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contact form section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form div {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.contact form label {
+    font-size: 18px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 6px;
+    border-radius: 3%;
+}
+
+.contact form input {
+    height: 35px;
+    width: 300px;
+    display: block;
+    border: 1px solid black;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    outline: none;
+    border: 2px solid #007bff;
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 123, 255, 0.6);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(0, 123, 255, 0.6);
+    box-shadow: 0px 0px 3px 2px rgba(0, 123, 255, 0.6);
+}
+
+.contact form textarea {
+    flex-grow: 1;
+    width: 500px;
+}
+
+.contact form button {
+    font-size: 20px;
+    display: block;
+    margin: 40px auto 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #28a745;
+    outline: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10%;
+}
+
+.contact form button:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* ErrorPage Page */
