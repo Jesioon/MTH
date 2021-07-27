@@ -8,13 +8,13 @@ import Footer from './Footer';
 class App extends Component {
   render() {
   return (
-    <div className="App">
-      <Router>
+    <Router basename={process.env.PUBLIC_URL}>
+    <div className="App"> 
         <Navigation/>
         <Content/>
         <Footer/>
-      </Router>
     </div>
+    </Router>
   );
   }
 }
