@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MTH/static/css/main.912f74cc.chunk.css",
+    "main.js": "/MTH/static/js/main.f36b19a5.chunk.js",
+    "main.js.map": "/MTH/static/js/main.f36b19a5.chunk.js.map",
+    "runtime-main.js": "/MTH/static/js/runtime-main.acb85776.js",
+    "runtime-main.js.map": "/MTH/static/js/runtime-main.acb85776.js.map",
+    "static/js/2.78ae2cdd.chunk.js": "/MTH/static/js/2.78ae2cdd.chunk.js",
+    "static/js/2.78ae2cdd.chunk.js.map": "/MTH/static/js/2.78ae2cdd.chunk.js.map",
+    "static/js/3.ce64a1d6.chunk.js": "/MTH/static/js/3.ce64a1d6.chunk.js",
+    "static/js/3.ce64a1d6.chunk.js.map": "/MTH/static/js/3.ce64a1d6.chunk.js.map",
+    "index.html": "/MTH/index.html",
+    "static/css/main.912f74cc.chunk.css.map": "/MTH/static/css/main.912f74cc.chunk.css.map",
+    "static/js/2.78ae2cdd.chunk.js.LICENSE.txt": "/MTH/static/js/2.78ae2cdd.chunk.js.LICENSE.txt",
+    "static/media/budowa.ece80ef2.jpg": "/MTH/static/media/budowa.ece80ef2.jpg",
+    "static/media/kupimy.15f0f9d4.jpg": "/MTH/static/media/kupimy.15f0f9d4.jpg",
+    "static/media/logo.c6df1204.png": "/MTH/static/media/logo.c6df1204.png",
+    "static/media/wizualizacja 3.56f333bf.jpg": "/MTH/static/media/wizualizacja 3.56f333bf.jpg",
+    "static/media/wizualizacja 4.64991f6b.jpg": "/MTH/static/media/wizualizacja 4.64991f6b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acb85776.js",
+    "static/js/2.78ae2cdd.chunk.js",
+    "static/css/main.912f74cc.chunk.css",
+    "static/js/main.f36b19a5.chunk.js"
+  ]
+}
