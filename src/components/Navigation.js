@@ -10,7 +10,6 @@ const Navigation = () => {
     <ul>
         <li><NavLink to='/' exact>w sprzedaży</NavLink></li>
         <li><NavLink to='/inwestments'>inwestycje zrealizowane</NavLink></li>
-        <li><NavLink to='/realizations'>w trakcie realizacji</NavLink></li>
         <li><NavLink to='/buyGrounds'>kupimy grunty</NavLink></li>
         <li><NavLink to='/aboutUs'>o nas</NavLink></li>
     </ul>

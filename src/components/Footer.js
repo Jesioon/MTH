@@ -18,8 +18,8 @@ const Footer = () => {
             <ul>
                 <li>KONTAKT:</li>
                 <li>Email: <span className='big'>biuro.mthome@gmail.com</span></li>
-                <li>Tel 1:<span className='big'>603 896 689</span></li>
-                <li>Tel 2: <span className='big'>500 286 738</span></li>
+                <li>Tel: <span className='big'>+48 665 724 888</span></li>
+
             </ul>
         </section>
     </footer>

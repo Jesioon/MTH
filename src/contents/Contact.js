@@ -84,8 +84,7 @@ class Contact extends React.Component{
                 <div className='contactMethods'>
                 <section className='contactSection'>
                     <h2>Przez telefon:</h2>
-                    <p>603 896 689</p>
-                    <p>500 286 738</p>
+                    <p>+48 665 724 888</p>
                 </section>
                 <section className='contactSection'>
                     <h2>Przez formularz:</h2>

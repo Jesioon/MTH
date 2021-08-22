@@ -1,5 +1,5 @@
 footer {
-    flex-basis: 200px;
+    flex-basis: 270px;
     background-color: #0D2674;
     color: #fff;
     padding: 15px 35px;
@@ -29,7 +29,3 @@ footer ul li:first-child {
     font-size: 20px;
     padding-bottom: 5px;
 }
-
-/* .flaticon-email {
-    display: inline;
-} */
