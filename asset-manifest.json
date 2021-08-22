@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/MTH/static/css/main.912f74cc.chunk.css",
-    "main.js": "/MTH/static/js/main.46d5fb56.chunk.js",
-    "main.js.map": "/MTH/static/js/main.46d5fb56.chunk.js.map",
-    "runtime-main.js": "/MTH/static/js/runtime-main.acb85776.js",
-    "runtime-main.js.map": "/MTH/static/js/runtime-main.acb85776.js.map",
-    "static/js/2.78ae2cdd.chunk.js": "/MTH/static/js/2.78ae2cdd.chunk.js",
-    "static/js/2.78ae2cdd.chunk.js.map": "/MTH/static/js/2.78ae2cdd.chunk.js.map",
-    "static/js/3.ce64a1d6.chunk.js": "/MTH/static/js/3.ce64a1d6.chunk.js",
-    "static/js/3.ce64a1d6.chunk.js.map": "/MTH/static/js/3.ce64a1d6.chunk.js.map",
+    "main.css": "/MTH/static/css/main.5f97c683.chunk.css",
+    "main.js": "/MTH/static/js/main.ea6a2aae.chunk.js",
+    "main.js.map": "/MTH/static/js/main.ea6a2aae.chunk.js.map",
+    "runtime-main.js": "/MTH/static/js/runtime-main.7fb52320.js",
+    "runtime-main.js.map": "/MTH/static/js/runtime-main.7fb52320.js.map",
+    "static/js/2.c44b2b6d.chunk.js": "/MTH/static/js/2.c44b2b6d.chunk.js",
+    "static/js/2.c44b2b6d.chunk.js.map": "/MTH/static/js/2.c44b2b6d.chunk.js.map",
+    "static/js/3.45768ff8.chunk.js": "/MTH/static/js/3.45768ff8.chunk.js",
+    "static/js/3.45768ff8.chunk.js.map": "/MTH/static/js/3.45768ff8.chunk.js.map",
     "index.html": "/MTH/index.html",
-    "static/css/main.912f74cc.chunk.css.map": "/MTH/static/css/main.912f74cc.chunk.css.map",
-    "static/js/2.78ae2cdd.chunk.js.LICENSE.txt": "/MTH/static/js/2.78ae2cdd.chunk.js.LICENSE.txt",
+    "static/css/main.5f97c683.chunk.css.map": "/MTH/static/css/main.5f97c683.chunk.css.map",
+    "static/js/2.c44b2b6d.chunk.js.LICENSE.txt": "/MTH/static/js/2.c44b2b6d.chunk.js.LICENSE.txt",
+    "static/media/OnSale-Brezy1.b785bb43.jpg": "/MTH/static/media/OnSale-Brezy1.b785bb43.jpg",
+    "static/media/OnSale-Brezy2.9dad9a9a.jpg": "/MTH/static/media/OnSale-Brezy2.9dad9a9a.jpg",
+    "static/media/OnSale-Brezy3.f618e6eb.jpg": "/MTH/static/media/OnSale-Brezy3.f618e6eb.jpg",
     "static/media/budowa.ece80ef2.jpg": "/MTH/static/media/budowa.ece80ef2.jpg",
-    "static/media/kupimy.15f0f9d4.jpg": "/MTH/static/media/kupimy.15f0f9d4.jpg",
-    "static/media/logo.c6df1204.png": "/MTH/static/media/logo.c6df1204.png",
-    "static/media/wizualizacja 3.56f333bf.jpg": "/MTH/static/media/wizualizacja 3.56f333bf.jpg",
-    "static/media/wizualizacja 4.64991f6b.jpg": "/MTH/static/media/wizualizacja 4.64991f6b.jpg"
+    "static/media/kupimy.96dbc639.jpg": "/MTH/static/media/kupimy.96dbc639.jpg",
+    "static/media/logo.c6df1204.png": "/MTH/static/media/logo.c6df1204.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.acb85776.js",
-    "static/js/2.78ae2cdd.chunk.js",
-    "static/css/main.912f74cc.chunk.css",
-    "static/js/main.46d5fb56.chunk.js"
+    "static/js/runtime-main.7fb52320.js",
+    "static/js/2.c44b2b6d.chunk.js",
+    "static/css/main.5f97c683.chunk.css",
+    "static/js/main.ea6a2aae.chunk.js"
   ]
 }
