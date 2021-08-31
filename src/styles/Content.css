@@ -12,7 +12,7 @@ main {
 .contact h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 45px;
+    font-size: 52px;
     margin-bottom: 50px;
 }
 
@@ -97,7 +97,6 @@ span.spanError {
 
 .onSale .images .image {
     flex-basis: 45%;
-    /* overflow: hidden; */
 }
 
 .onSale .images .image img {
@@ -159,14 +158,15 @@ span.spanError {
     font-size: 50px;
     text-align: center;
     margin-bottom: 30px;
-    /* margin-top: 50px; */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .inwestments article section p {
     font-size: 22px;
     flex-basis: 40%;
     text-align: justify;
-    margin: 0 35px;
+    margin: 0 55px;
 }
 
 .inwestments article section.images {
@@ -259,6 +259,7 @@ span.spanError {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .buy p {
@@ -386,3 +387,381 @@ span.spanError {
 }
 
 /* ErrorPage Page */
+
+/* RWD */
+
+
+
+@media(max-width: 1620px) {
+
+    /* Realization Page */
+    .realization .projectBrezy .description {
+        padding: 30px
+    }
+
+    .realization .projectBrezy .description:nth-child(2) p {
+        font-size: 17px;
+    }
+
+    .realization h2 {
+        font-size: 36px;
+    }
+
+    .realization .projectBrezy .description .imageBrezy img {
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+    /* buyGrounds Page */
+    .buy p {
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width: 1540px) {
+
+    .realization h1,
+    .onSale h1,
+    .inwestments h1 {
+        font-size: 44px;
+    }
+
+    /* Inwestments page */
+
+    .inwestments article section h2 {
+        font-size: 42px;
+    }
+
+    .inwestments article section p {
+        font-size: 20px;
+    }
+
+    .inwestments article section:nth-child(1) {
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 1460px) {
+    .realization .projectBrezy .description:nth-child(2) p {
+        font-size: 15px;
+    }
+
+    .realization .description:nth-child(2) h2 {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 1320px) {
+
+    .realization h1,
+    .onSale h1 {
+        font-size: 40px;
+    }
+
+
+    /* Realization page */
+    .realization .projectBrezy .description:nth-child(2) p {
+        font-size: 13px;
+    }
+
+    .realization .description:nth-child(2) h2 {
+        font-size: 28px;
+    }
+
+    .realization .description h2#lokalizacjaSubtitle {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .realization h2#title {
+        font-size: 48px;
+        margin-bottom: 35px;
+    }
+
+    .realization .description p {
+        font-size: 16px;
+    }
+
+    /* buyGrounds Page */
+    .buy p {
+        font-size: 16px;
+    }
+
+    .buy ul li {
+        font-size: 16px;
+    }
+
+    .buy span.big {
+        font-size: 18px;
+    }
+
+    .buy img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .inwestments h1 {
+        font-size: 42px;
+    }
+
+    main {
+        margin: 60px auto;
+    }
+
+    /* onSale Page */
+
+    .onSale {
+        margin-bottom: 30px;
+    }
+
+    .onSale .images {
+        flex-direction: column;
+    }
+
+    .onSale .images .image {
+        margin: 0 auto 20px;
+        width: 90%;
+    }
+
+    /* Realization page */
+
+    .realization {
+        margin-top: 30px;
+    }
+
+    .realization .projectBrezy .description {
+        flex-direction: column;
+    }
+
+    .realization .projectBrezy .description:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .realization .description p {
+        font-size: 18px;
+        margin: 0 20px;
+    }
+
+    .realization .description p:last-child {
+        margin-bottom: 40px;
+    }
+
+    .realization .projectBrezy .description:nth-child(2) p {
+        font-size: 16px;
+    }
+
+    .realization .description:nth-child(2) h2,
+    .realization .description h2#lokalizacjaSubtitle {
+        font-size: 36px;
+    }
+
+    /* Inwestments page */
+    .inwestments article section h2 {
+        font-size: 38px;
+    }
+
+    .inwestments article section p {
+        font-size: 18px;
+    }
+
+    /* buyGrounds Page */
+
+    .buy {
+        flex-direction: column;
+    }
+
+    .buy img {
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .buy ul+p {
+        padding-top: 10px;
+    }
+
+}
+
+@media(max-width: 900px) {
+    .inwestments h1 {
+        font-size: 38px;
+    }
+
+    /* Inwestments Page */
+
+    .inwestments article section.images {
+        flex-direction: column;
+        padding: 10px 20px
+    }
+
+    .inwestments article section:nth-child(1) {
+        padding-bottom: 30px;
+    }
+
+    .inwestments article section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .inwestments article section p {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 750px) {
+    /* Inwestments Page */
+
+    .inwestments article section p {
+        margin: 0 35px;
+        font-size: 16px;
+    }
+
+
+    /* buyGrounds Page */
+    .buy p {
+        font-size: 15px;
+    }
+
+    .buy ul li {
+        font-size: 15px;
+    }
+
+    .buy span.big {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 620px) {
+
+    .realization h1,
+    .onSale h1 {
+        font-size: 40px;
+    }
+
+    .inwestments h1 {
+        font-size: 35px;
+    }
+
+    /* onSale Page */
+    .onSale .images .image {
+        width: 100%;
+    }
+
+    /* Realization Page */
+    .realization h2#title {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .realization .description p,
+    .realization .projectBrezy .description:nth-child(2) p {
+        font-size: 15px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .realization .description:nth-child(2) h2,
+    .realization .description h2#lokalizacjaSubtitle {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .realization h1,
+    .onSale h1 {
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    /* Realization Page */
+    .realization .description p,
+    .realization .projectBrezy .description:nth-child(2) p {
+        font-size: 14px;
+    }
+
+    .realization .projectBrezy .description {
+        padding: 20px
+    }
+
+    /* Inwestments Page */
+    .inwestments article section h2 {
+        font-size: 32px;
+    }
+
+    .inwestments article section p {
+        font-size: 15px;
+        margin: 0 25px;
+    }
+
+    /* buyGrounds Page */
+    .buy {
+        padding: 15px 20px;
+    }
+
+    .buy p {
+        font-size: 14px;
+    }
+
+    .buy ul {
+        padding-left: 22px;
+    }
+
+    .buy ul li {
+        font-size: 14px;
+    }
+
+    .buy span.big {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 400px) {
+
+    .realization h1,
+    .onSale h1 {
+        font-size: 34px;
+    }
+
+    .inwestments h1 {
+        font-size: 32px;
+    }
+
+    /* Realization Page */
+
+    .realization .description p,
+    .realization .projectBrezy .description:nth-child(2) p {
+        font-size: 13px;
+    }
+
+    .realization .description:nth-child(2) h2,
+    .realization .description h2#lokalizacjaSubtitle {
+        font-size: 28px;
+    }
+
+    .realization h2#title {
+        font-size: 33px;
+        margin-bottom: 15px;
+    }
+
+    .realization .description p:last-child {
+        margin-bottom: 20px;
+    }
+
+
+    /* Inwestments Page */
+
+    .inwestments article section h2 {
+        font-size: 29px;
+    }
+
+    .inwestments article section p {
+        font-size: 14px;
+        margin: 0 15px;
+    }
+}

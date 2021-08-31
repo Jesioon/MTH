@@ -50,3 +50,43 @@
     background-color: #fff;
     font-weight: 700;
 }
+
+/* TODO MENU DLA TELEFONÓW */
+@media(max-width: 1440px) {
+    .mainNav {
+        height: 100px;
+    }
+
+    .mainNav ul li a {
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+
+    .mainNav ul {
+        margin-right: 20px;
+    }
+
+    .maiNnNav ul li {
+        margin: 0 10px;
+    }
+}
+
+@media(max-width: 1180px) {
+    .mainNav {
+        height: 85px;
+    }
+
+    .mainNav img {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .mainNav ul {
+        margin-right: 0px;
+    }
+
+    .mainNav ul li a {
+        font-size: 14px;
+        padding: 5px 13px;
+    }
+}

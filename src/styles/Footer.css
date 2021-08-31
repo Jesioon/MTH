@@ -2,7 +2,7 @@ footer {
     flex-basis: 270px;
     background-color: #0D2674;
     color: #fff;
-    padding: 15px 35px;
+    padding: 15px 35px 25px;
 }
 
 footer h1 {
@@ -28,4 +28,71 @@ footer ul li:first-child {
     text-align: center;
     font-size: 20px;
     padding-bottom: 5px;
+}
+
+@media(max-width: 1180px) {
+    footer {
+        flex-basis: 230px
+    }
+
+    footer h1 {
+        font-size: 34px;
+    }
+
+    footer ul li {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 900px) {
+    footer {
+        flex-basis: 210px
+    }
+
+    footer h1 {
+        font-size: 30px;
+    }
+
+    footer ul li:first-child {
+        font-size: 17px;
+    }
+
+    footer ul li {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 700px) {
+    footer {
+        padding: 15px 20px 25px;
+    }
+
+
+
+    footer h1 {
+        margin-bottom: 10px;
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 620px) {
+    footer section {
+        justify-content: space-between
+    }
+}
+
+@media(max-width: 510px) {
+    footer section {
+        flex-direction: column-reverse;
+    }
+
+    footer ul li:first-child {
+        padding: 10px 0 10px 0;
+        font-size: 19px;
+    }
+
+    footer ul li {
+        text-align: center;
+        font-size: 15px;
+    }
 }
