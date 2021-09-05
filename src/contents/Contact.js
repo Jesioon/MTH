@@ -82,43 +82,43 @@ class Contact extends React.Component{
             <div className='contact'>
                 <h1>skontaktuj się z nami</h1>
                 <div className='contactMethods'>
-                <section className='contactSection'>
-                    <h2>Przez telefon:</h2>
-                    <p>+48 665 724 888</p>
-                </section>
-                <section className='contactSection'>
-                    <h2>Przez formularz:</h2>
-                <form action='https://formspree.io/f/mdoywoeb' method='POST'>
-                    <div className='inputs'>
-                    <section>
-                    <div>
-                    <label htmlFor='name'>Twoje imię: </label>
-                    <input id='name' name='name' required value={this.state.name} onChange={this.handleInput}></input>
-                    {this.state.errors.nameEmpty && <span className='spanError'>{this.errorMessages.emptyError}</span>}
-                    </div>
-                    <div>
-                    <label htmlFor='email'>Twój email: </label>
-                    <input id='email' name='email' required value={this.state.email} onChange={this.handleInput}></input>
-                    {this.state.errors.emailError && <span className='spanError'>{this.errorMessages.emailError}</span>}
-                    {this.state.errors.emailEmpty && <span className='spanError'>{this.errorMessages.emptyError}</span>}
-                    </div>
-                    <div>
-                    <label htmlFor='topic'>Temat wiadomości: </label>
-                    <input id='topic' name='topic' required value={this.state.topic} onChange={this.handleInput}></input>
-                    {this.state.errors.topicEmpty && <span className='spanError'>{this.errorMessages.emptyError}</span>}
-                    </div>
+                    <section className='contactSection'>
+                        <h2>Przez telefon:</h2>
+                        <p>+48 665 724 888</p>
                     </section>
-                    <section>
-                        <div>
-                    <label htmlFor='message'>Wiadomość: </label>
-                    <textarea id='message' name='message' required value={this.state.message} onChange={this.handleInput}></textarea>
-                    {this.state.errors.messageEmpty && <span className='spanError'>{this.errorMessages.emptyError}</span>}
-                    </div>
+                    <section className='contactSection'>
+                        <h2>Przez formularz:</h2>
+                        <form action='https://formspree.io/f/mdoywoeb' method='POST'>
+                            <div className='inputs'>
+                                <section>
+                                    <div>
+                                        <label htmlFor='name'>Twoje imię: </label>
+                                        <input id='name' name='name' required value={this.state.name} onChange={this.handleInput}></input>
+                                        {this.state.errors.nameEmpty && <span className='spanError'>{this.errorMessages.emptyError}</span>}
+                                    </div>
+                                    <div>
+                                        <label htmlFor='email'>Twój email: </label>
+                                        <input id='email' name='email' required value={this.state.email} onChange={this.handleInput}></input>
+                                        {this.state.errors.emailError && <span className='spanError'>{this.errorMessages.emailError}</span>}
+                                        {this.state.errors.emailEmpty && <span className='spanError'>{this.errorMessages.emptyError}</span>}
+                                    </div>
+                                    <div>
+                                        <label htmlFor='topic'>Temat wiadomości: </label>
+                                        <input id='topic' name='topic' required value={this.state.topic} onChange={this.handleInput}></input>
+                                        {this.state.errors.topicEmpty && <span className='spanError'>{this.errorMessages.emptyError}</span>}
+                                    </div>
+                                </section>
+                                <section>
+                                    <div>
+                                        <label htmlFor='message'>Wiadomość: </label>
+                                        <textarea id='message' name='message' required value={this.state.message} onChange={this.handleInput}></textarea>
+                                        {this.state.errors.messageEmpty && <span className='spanError'>{this.errorMessages.emptyError}</span>}
+                                    </div>
+                                </section>
+                            </div>
+                            <button onClick={this.handleSubmit}>Wyślij</button>
+                        </form>
                     </section>
-                    </div>
-                    <button onClick={this.handleSubmit}>Wyślij</button>
-                </form>
-                </section>
                 </div>
             </div>
         )

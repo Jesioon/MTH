@@ -54,7 +54,7 @@ span.spanError {
 }
 
 #facebookButton a {
-    padding: 10px 40px;
+    padding: 12px 40px 8px;
     font-size: 35px;
 }
 
@@ -107,7 +107,7 @@ span.spanError {
 
 /* AboutUs Page */
 
-.aboutUs article {
+.aboutUs section {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -115,30 +115,30 @@ span.spanError {
     padding: 15px;
 }
 
-.aboutUs article img {
+.aboutUs section img {
     display: block;
-    width: 45%;
-    height: 100%;
+    width: 50%;
+    /* height: 100%; */
 }
 
-.aboutUs article p {
+.aboutUs section p {
     width: 45%;
     font-size: 21px;
     text-align: justify;
     line-height: 1.6;
 }
 
-.aboutUs article p span {
+.aboutUs section p span {
     display: block;
     padding-bottom: 10px;
 }
 
-.aboutUs article p ul {
+.aboutUs section p ul {
     padding-left: 45px;
     padding-bottom: 10px;
 }
 
-.aboutUs article p span.bold {
+.aboutUs section p span.bold {
     font-weight: bold;
 }
 
@@ -305,6 +305,10 @@ span.spanError {
     flex-basis: 35%;
 }
 
+.contact section.contactSection:nth-child(2) {
+    flex-grow: 1;
+}
+
 .contact h2 {
     text-align: center;
     font-size: 35px;
@@ -328,6 +332,14 @@ span.spanError {
     flex-direction: column;
 }
 
+.contact form section:nth-child(1) {
+    flex-basis: 35%;
+}
+
+.contact form section:nth-child(2) {
+    flex-basis: 55%;
+}
+
 .contact form div {
     margin: 10px;
     display: flex;
@@ -349,7 +361,7 @@ span.spanError {
 
 .contact form input {
     height: 35px;
-    width: 300px;
+    width: 95%;
     display: block;
     border: 1px solid black;
 }
@@ -365,7 +377,7 @@ span.spanError {
 
 .contact form textarea {
     flex-grow: 1;
-    width: 500px;
+    width: 95%;
 }
 
 .contact form button {
@@ -423,7 +435,9 @@ span.spanError {
 
     .realization h1,
     .onSale h1,
-    .inwestments h1 {
+    .inwestments h1,
+    .aboutUs h1,
+    .contact h1 {
         font-size: 44px;
     }
 
@@ -433,7 +447,8 @@ span.spanError {
         font-size: 42px;
     }
 
-    .inwestments article section p {
+    .inwestments article section p,
+    .aboutUs section p {
         font-size: 20px;
     }
 
@@ -449,6 +464,10 @@ span.spanError {
 
     .realization .description:nth-child(2) h2 {
         font-size: 32px;
+    }
+
+    .aboutUs section p {
+        font-size: 18px;
     }
 }
 
@@ -484,7 +503,8 @@ span.spanError {
     }
 
     /* buyGrounds Page */
-    .buy p {
+    .buy p,
+    .aboutUs section p {
         font-size: 16px;
     }
 
@@ -500,9 +520,56 @@ span.spanError {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
+    /* Contact Page */
+
+    .contact p {
+        font-size: 26px;
+    }
+
+}
+
+
+@media(max-width: 1040px) {
+    .aboutUs section {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .aboutUs section img {
+        width: 100%;
+    }
+
+    .aboutUs section p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Contact Page */
+
+    .contact .contactMethods {
+        flex-direction: column;
+    }
+
+    .contact section.contactSection:nth-child(1) {
+        border-right: none;
+        margin-bottom: 20px;
+    }
+
+    .contact form button {
+        margin: 25px auto 0;
+    }
 }
 
 @media(max-width: 1024px) {
+    #contactButton a {
+        font-size: 17px;
+    }
+
+    #facebookButton a {
+        font-size: 31px;
+    }
+
     .inwestments h1 {
         font-size: 42px;
     }
@@ -584,6 +651,7 @@ span.spanError {
 
 }
 
+
 @media(max-width: 900px) {
     .inwestments h1 {
         font-size: 38px;
@@ -611,6 +679,19 @@ span.spanError {
 }
 
 @media(max-width: 750px) {
+    #contactButton a {
+        font-size: 15px;
+
+    }
+
+    #facebookButton a {
+        font-size: 27px;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+    }
+
     /* Inwestments Page */
 
     .inwestments article section p {
@@ -620,7 +701,8 @@ span.spanError {
 
 
     /* buyGrounds Page */
-    .buy p {
+    .buy p,
+    .aboutUs section p {
         font-size: 15px;
     }
 
@@ -631,16 +713,32 @@ span.spanError {
     .buy span.big {
         font-size: 17px;
     }
+
+    /* aboutUs Page */
+
+    .aboutUs section p ul {
+        padding-left: 30px;
+    }
 }
 
 @media(max-width: 620px) {
+    #contactButton a {
+        font-size: 14px;
+        padding: 20px 10px 20px 25px
+    }
+
+    #facebookButton a {
+        font-size: 27px;
+    }
 
     .realization h1,
-    .onSale h1 {
+    .onSale h1,
+    .aboutUs h1 {
         font-size: 40px;
     }
 
-    .inwestments h1 {
+    .inwestments h1,
+    .contact h1 {
         font-size: 35px;
     }
 
@@ -666,17 +764,52 @@ span.spanError {
     .realization .description h2#lokalizacjaSubtitle {
         font-size: 32px;
     }
+
+    /* Contact Page */
+
+    .contact h2 {
+        font-size: 33px;
+    }
+
+    .contact p {
+        font-size: 25px;
+    }
+
+    .contact form div.inputs {
+        flex-direction: column;
+    }
+
+    .contact form textarea {
+        height: 150px;
+    }
+
 }
 
 @media(max-width: 500px) {
 
     .realization h1,
-    .onSale h1 {
+    .onSale h1,
+    .aboutUs h1 {
         font-size: 36px;
+    }
+
+    /* aboutUs Page */
+
+    .aboutUs section p ul {
+        padding-left: 15px;
     }
 }
 
 @media(max-width: 450px) {
+    #contactButton a {
+        font-size: 13px;
+        padding: 20px 10px 20px 20px;
+    }
+
+    #facebookButton a {
+        font-size: 27px;
+        padding: 12px 30px 8px
+    }
 
     /* Realization Page */
     .realization .description p,
@@ -703,7 +836,8 @@ span.spanError {
         padding: 15px 20px;
     }
 
-    .buy p {
+    .buy p,
+    .aboutUs section p {
         font-size: 14px;
     }
 
@@ -719,6 +853,16 @@ span.spanError {
         font-size: 16px;
     }
 
+    /* aboutUs Page */
+
+    .aboutUs section {
+        padding: 15px
+    }
+
+    /* Contact Page */
+
+
+
 }
 
 @media(max-width: 400px) {
@@ -728,7 +872,8 @@ span.spanError {
         font-size: 34px;
     }
 
-    .inwestments h1 {
+    .inwestments h1,
+    .contact h1 {
         font-size: 32px;
     }
 
@@ -763,5 +908,23 @@ span.spanError {
     .inwestments article section p {
         font-size: 14px;
         margin: 0 15px;
+    }
+
+    /* Contact Page */
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .contact p {
+        font-size: 23px;
+    }
+
+    .contact form label {
+        font-size: 16px;
+    }
+
+    .contact form button {
+        font-size: 18px;
     }
 }
