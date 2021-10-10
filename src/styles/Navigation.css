@@ -6,18 +6,16 @@
 }
 
 .leftNav {
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    justify-content: center;
     position: fixed;
     z-index: 1;
     left: 0;
     bottom: 0;
-    height: calc(100vh - 85px);
-
     width: 100%;
     background-color: #1F6DE0;
     opacity: 0.95;
-    transition: 1s;
+    transition: 0.75s;
 }
 
 .mainNav a {
