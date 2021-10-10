@@ -53,7 +53,6 @@ const OnSale = () => {
             </div>
             <hr/>
             <div className='realization'>
-                <h1>Aktualna oferta</h1>
            
             <section class='projectBrezy'>
                 <article class='description'>

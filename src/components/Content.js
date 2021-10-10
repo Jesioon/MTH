@@ -11,28 +11,24 @@ import Contact from '../contents/Contact';
 
 class Content extends React.Component{
     state = {
-        displayContactButton: false,
-        displayFacebookButton : false,
+        displayContactButtons: false,
     }
 
     componentDidMount() {
         setTimeout(()=> {
             this.setState({
-                displayContactButton: true
+                displayContactButtons: true
             })
-        }, 2000)
-        setTimeout(()=> {
-            this.setState({
-                displayFacebookButton: true
-            })
-        }, 2500)
+        }, 2100)
     }
     render() {
     return ( 
         <main>
-            {this.state.displayContactButton && <button id='contactButton'><Link to='/contact'>Skontaktuj się z nami</Link></button>}
-            {this.state.displayFacebookButton && <button id='facebookButton'><a href='https://www.facebook.com/mthomepl/' 
-                                                                                target='_blank' rel='noreferrer'><FaFacebook/></a></button>}
+            {this.state.displayContactButtons &&<div id="rightButtons">
+             <button id='contactButton'><Link to='/contact'>Skontaktuj się z nami</Link></button>
+           <button id='facebookButton'><a href='https://www.facebook.com/mthomepl/' 
+                            target='_blank' rel='noreferrer'><FaFacebook/></a></button>
+            </div>  }
             <Switch>
             <Route path='/' exact component={OnSale}/>
             <Route path='/inwestments'  component={Inwestments}/>

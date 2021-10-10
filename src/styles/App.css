@@ -7,10 +7,12 @@
 body {
     font-family: 'Lato', sans-serif;
     width: 100%;
+    /* overflow: hidden; */
 }
 
 div.App {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
 }

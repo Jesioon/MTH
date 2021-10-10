@@ -24,21 +24,29 @@ span.spanError {
     color: red;
 }
 
-#contactButton,
-#facebookButton {
+#rightButtons {
     position: fixed;
     top: 30vh;
-    right: 0;
+    right: 0px;
+    animation: buttonDisplay 2s 1 ease;
+}
+
+#contactButton,
+#facebookButton {
+    display: block;
+    /* position: absolute; */
     background-color: #5e548e;
     border-top-left-radius: 25%;
     border-bottom-left-radius: 25%;
     border: none;
     transition: .3s;
-    animation: buttonDisplay 1s 1 ease;
+    right: 0;
+
 }
 
 #facebookButton {
-    top: 39vh;
+    margin-left: auto;
+    margin-top: 20px;
     background-color: #1F6DE0;
 }
 
@@ -58,21 +66,29 @@ span.spanError {
     font-size: 35px;
 }
 
-#contactButton:hover {
-    background-color: #3d3666;
+@media (hover: hover) {
+    #contactButton:hover {
+        background-color: #3d3666;
+    }
+
+    #facebookButton:hover {
+        background-color: #0D2674;
+    }
+
+    #contactButton:hover a {
+        font-size: 22px;
+    }
+
+    #facebookButton:hover a {
+        font-size: 41px;
+    }
+
+    .contact form button:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
 }
 
-#facebookButton:hover {
-    background-color: #0D2674;
-}
-
-#contactButton:hover a {
-    font-size: 22px;
-}
-
-#facebookButton:hover a {
-    font-size: 41px;
-}
 
 @keyframes buttonDisplay {
     from {
@@ -393,10 +409,7 @@ span.spanError {
     border-radius: 10%;
 }
 
-.contact form button:hover {
-    background-color: #218838;
-    border-color: #1e7e34;
-}
+
 
 /* ErrorPage Page */
 
@@ -561,7 +574,7 @@ span.spanError {
     }
 }
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
     #contactButton a {
         font-size: 17px;
     }

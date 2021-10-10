@@ -73,8 +73,6 @@ class Contact extends React.Component{
                 }
             });
         }
-        
-
     }
 
     render() {
