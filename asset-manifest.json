@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/MTH/static/css/main.15468b55.chunk.css",
-    "main.js": "/MTH/static/js/main.1ca94941.chunk.js",
-    "main.js.map": "/MTH/static/js/main.1ca94941.chunk.js.map",
+    "main.css": "/MTH/static/css/main.ffb72de6.chunk.css",
+    "main.js": "/MTH/static/js/main.4b35e003.chunk.js",
+    "main.js.map": "/MTH/static/js/main.4b35e003.chunk.js.map",
     "runtime-main.js": "/MTH/static/js/runtime-main.7fb52320.js",
     "runtime-main.js.map": "/MTH/static/js/runtime-main.7fb52320.js.map",
-    "static/js/2.41887b96.chunk.js": "/MTH/static/js/2.41887b96.chunk.js",
-    "static/js/2.41887b96.chunk.js.map": "/MTH/static/js/2.41887b96.chunk.js.map",
+    "static/js/2.aa7816cb.chunk.js": "/MTH/static/js/2.aa7816cb.chunk.js",
+    "static/js/2.aa7816cb.chunk.js.map": "/MTH/static/js/2.aa7816cb.chunk.js.map",
     "static/js/3.45768ff8.chunk.js": "/MTH/static/js/3.45768ff8.chunk.js",
     "static/js/3.45768ff8.chunk.js.map": "/MTH/static/js/3.45768ff8.chunk.js.map",
     "index.html": "/MTH/index.html",
-    "static/css/main.15468b55.chunk.css.map": "/MTH/static/css/main.15468b55.chunk.css.map",
-    "static/js/2.41887b96.chunk.js.LICENSE.txt": "/MTH/static/js/2.41887b96.chunk.js.LICENSE.txt",
-    "static/media/OnSale-Brezy1.b785bb43.jpg": "/MTH/static/media/OnSale-Brezy1.b785bb43.jpg",
-    "static/media/OnSale-Brezy2.9dad9a9a.jpg": "/MTH/static/media/OnSale-Brezy2.9dad9a9a.jpg",
-    "static/media/OnSale-Brezy3.f618e6eb.jpg": "/MTH/static/media/OnSale-Brezy3.f618e6eb.jpg",
+    "static/css/main.ffb72de6.chunk.css.map": "/MTH/static/css/main.ffb72de6.chunk.css.map",
+    "static/js/2.aa7816cb.chunk.js.LICENSE.txt": "/MTH/static/js/2.aa7816cb.chunk.js.LICENSE.txt",
+    "static/media/Inwestments-Porazinska1.b785bb43.jpg": "/MTH/static/media/Inwestments-Porazinska1.b785bb43.jpg",
+    "static/media/Inwestments-Porazinska2.9dad9a9a.jpg": "/MTH/static/media/Inwestments-Porazinska2.9dad9a9a.jpg",
+    "static/media/OnSale-Zarembiny1.be503339.jpg": "/MTH/static/media/OnSale-Zarembiny1.be503339.jpg",
+    "static/media/OnSale-Zarembiny2.5e76cbde.jpg": "/MTH/static/media/OnSale-Zarembiny2.5e76cbde.jpg",
+    "static/media/OnSale-Zarembiny3.33defca9.jpg": "/MTH/static/media/OnSale-Zarembiny3.33defca9.jpg",
+    "static/media/OnSale-Zarembiny4.8d259c38.jpg": "/MTH/static/media/OnSale-Zarembiny4.8d259c38.jpg",
+    "static/media/OnSale-Zarembiny5.8d259c38.jpg": "/MTH/static/media/OnSale-Zarembiny5.8d259c38.jpg",
+    "static/media/OnSale-Zarembiny6.02464926.jpg": "/MTH/static/media/OnSale-Zarembiny6.02464926.jpg",
     "static/media/budowa.ece80ef2.jpg": "/MTH/static/media/budowa.ece80ef2.jpg",
     "static/media/kupimy.96dbc639.jpg": "/MTH/static/media/kupimy.96dbc639.jpg",
-    "static/media/logo.c6df1204.png": "/MTH/static/media/logo.c6df1204.png"
+    "static/media/logo2.6cdcef0c.png": "/MTH/static/media/logo2.6cdcef0c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7fb52320.js",
-    "static/js/2.41887b96.chunk.js",
-    "static/css/main.15468b55.chunk.css",
-    "static/js/main.1ca94941.chunk.js"
+    "static/js/2.aa7816cb.chunk.js",
+    "static/css/main.ffb72de6.chunk.css",
+    "static/js/main.4b35e003.chunk.js"
   ]
 }
