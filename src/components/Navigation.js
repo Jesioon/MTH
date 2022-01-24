@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Navigation.css';
 import {Link, NavLink} from 'react-router-dom';
-import logo from '../images/logo.png';
+import logo from '../images/logo2.png';
 import { FaBars } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
 

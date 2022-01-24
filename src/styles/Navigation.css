@@ -90,7 +90,6 @@
     display: none;
 }
 
-/* TODO MENU DLA TELEFONÓW */
 @media(max-width: 1440px) {
     .mainNav {
         height: 100px;
@@ -98,7 +97,7 @@
 
     .mainNav ul li a {
         font-size: 17px;
-        padding: 10px 20px;
+        padding: 10px 10px;
     }
 
     .mainNav ul {
@@ -126,13 +125,13 @@
 
     .mainNav ul li a {
         font-size: 14px;
-        padding: 5px 13px;
+        padding: 5px 0;
     }
 
     @media(max-width: 980px) {
         .mainNav {
             justify-content: space-between;
-            padding: 0 40px
+            padding: 0 40px 0 20px
         }
 
         .mainNav ul {
@@ -156,7 +155,7 @@
         }
 
         .mainNav {
-            padding: 0 20px
+            padding: 0 20px 0 10px
         }
 
         .mainNav #burger {

@@ -1,6 +1,6 @@
 import React from 'react';
-import img1 from '../images/OnSale-Brezy1.jpg'
-import img2 from '../images/OnSale-Brezy2.jpg'
+import img1 from '../images/Inwestments-Porazinska1.jpg'
+import img2 from '../images/Inwestments-Porazinska2.jpg'
 
 const Inwestments = () => {
     const text = `Inwestycja polegająca na budowie 4 domów w zabudowie szeregowej z

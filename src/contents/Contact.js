@@ -86,7 +86,7 @@ class Contact extends React.Component{
                     </section>
                     <section className='contactSection'>
                         <h2>Przez formularz:</h2>
-                        <form action='https://formspree.io/f/mdoywoeb' method='POST'>
+                        <form action='https://formspree.io/f/mrgjedro' method='POST'>
                             <div className='inputs'>
                                 <section>
                                     <div>

@@ -103,16 +103,18 @@ span.spanError {
 /* onSale Page */
 
 .onSale {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .onSale .images {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .onSale .images .image {
     flex-basis: 45%;
+    margin-bottom: 30px;
 }
 
 .onSale .images .image img {
@@ -209,32 +211,37 @@ span.spanError {
     margin-top: 70px;
 }
 
-.realization .projectBrezy .description {
+.realization .projectZarembiny .description {
     display: flex;
     justify-content: space-around;
     padding: 60px 0;
 }
 
-.realization .projectBrezy .description:nth-child(odd) {
+.realization .projectZarembiny .description:nth-child(odd) {
     background-color: #ede7d9;
     color: black;
 }
 
-.realization .projectBrezy .description:nth-child(even) {
+.realization .projectZarembiny .description:nth-child(even) {
     background-color: #736b60;
     color: white;
 }
 
-.realization .projectBrezy .description .textBrezy {
+.realization .projectZarembiny .description .textZarembiny {
     flex-basis: 45%;
     margin: auto 0;
 }
 
-.realization .projectBrezy .description .imageBrezy {
-    flex-basis: 45%;
+.realization .projectZarembiny .description .textZarembiny ul {
+    margin-left: 30px;
 }
 
-.realization .projectBrezy .description .imageBrezy img {
+.realization .projectZarembiny .description .imageZarembiny {
+    flex-basis: 45%;
+    margin: auto 0;
+}
+
+.realization .projectZarembiny .description .imageZarembiny img {
     max-height: 100%;
     max-width: 100%;
 }
@@ -246,12 +253,8 @@ span.spanError {
 }
 
 .realization h2#title {
-    font-size: 56px;
-    margin-bottom: 60px;
-}
-
-.realization h2#lokalizacjaSubtitle {
-    margin-bottom: 50px;
+    font-size: 52px;
+    margin-bottom: 30px;
 }
 
 .realization p {
@@ -420,21 +423,16 @@ span.spanError {
 @media(max-width: 1620px) {
 
     /* Realization Page */
-    .realization .projectBrezy .description {
+    .realization .projectZarembiny .description {
         padding: 30px
     }
 
-    .realization .projectBrezy .description:nth-child(2) p {
+    .realization .projectZarembiny .description:nth-child(2) p {
         font-size: 17px;
     }
 
     .realization h2 {
         font-size: 36px;
-    }
-
-    .realization .projectBrezy .description .imageBrezy img {
-        min-height: 100%;
-        min-width: 100%;
     }
 
     /* buyGrounds Page */
@@ -471,7 +469,7 @@ span.spanError {
 }
 
 @media(max-width: 1460px) {
-    .realization .projectBrezy .description:nth-child(2) p {
+    .realization .projectZarembiny .description:nth-child(2) p {
         font-size: 15px;
     }
 
@@ -493,17 +491,12 @@ span.spanError {
 
 
     /* Realization page */
-    .realization .projectBrezy .description:nth-child(2) p {
+    .realization .projectZarembiny .description:nth-child(2) p {
         font-size: 13px;
     }
 
     .realization .description:nth-child(2) h2 {
         font-size: 28px;
-    }
-
-    .realization .description h2#lokalizacjaSubtitle {
-        font-size: 32px;
-        margin-bottom: 25px;
     }
 
     .realization h2#title {
@@ -612,11 +605,11 @@ span.spanError {
         margin-top: 30px;
     }
 
-    .realization .projectBrezy .description {
+    .realization .projectZarembiny .description {
         flex-direction: column;
     }
 
-    .realization .projectBrezy .description:nth-child(2) {
+    .realization .projectZarembiny .description:nth-child(2n) {
         flex-direction: column-reverse;
     }
 
@@ -629,12 +622,11 @@ span.spanError {
         margin-bottom: 40px;
     }
 
-    .realization .projectBrezy .description:nth-child(2) p {
+    .realization .projectZarembiny .description:nth-child(2) p {
         font-size: 16px;
     }
 
-    .realization .description:nth-child(2) h2,
-    .realization .description h2#lokalizacjaSubtitle {
+    .realization .description:nth-child(2) h2 {
         font-size: 36px;
     }
 
@@ -767,14 +759,13 @@ span.spanError {
     }
 
     .realization .description p,
-    .realization .projectBrezy .description:nth-child(2) p {
+    .realization .projectZarembiny .description:nth-child(2) p {
         font-size: 15px;
         margin-left: 0;
         margin-right: 0;
     }
 
-    .realization .description:nth-child(2) h2,
-    .realization .description h2#lokalizacjaSubtitle {
+    .realization .description:nth-child(2) h2 {
         font-size: 32px;
     }
 
@@ -826,11 +817,11 @@ span.spanError {
 
     /* Realization Page */
     .realization .description p,
-    .realization .projectBrezy .description:nth-child(2) p {
+    .realization .projectZarembiny .description:nth-child(2) p {
         font-size: 14px;
     }
 
-    .realization .projectBrezy .description {
+    .realization .projectZarembiny .description {
         padding: 20px
     }
 
@@ -893,12 +884,11 @@ span.spanError {
     /* Realization Page */
 
     .realization .description p,
-    .realization .projectBrezy .description:nth-child(2) p {
+    .realization .projectZarembiny .description:nth-child(2) p {
         font-size: 13px;
     }
 
-    .realization .description:nth-child(2) h2,
-    .realization .description h2#lokalizacjaSubtitle {
+    .realization .description:nth-child(2) h2 {
         font-size: 28px;
     }
 
