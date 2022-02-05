@@ -196,13 +196,14 @@ span.spanError {
 
 
 .inwestments article section .img {
-    flex-basis: 45%;
+    flex-basis: 31%;
     margin-bottom: 20px;
 }
 
 .inwestments article section .img img {
-    max-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Realization Page */

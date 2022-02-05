@@ -92,12 +92,12 @@ const OnSale = () => {
                         <p>{description1}</p>
                     </div>
                     <div class='imageZarembiny'>
-                        <img src={OnSaleZarembiny1} alt='wizualizacja 1'></img>
+                        <img src={OnSaleZarembiny1} alt='Domy Zarembiny'></img>
                     </div>
                 </article>
                 <article class='description'>
                     <div class='imageZarembiny'>
-                        <img src={OnSaleZarembiny2} alt='wizualizacja 2'></img>
+                        <img src={OnSaleZarembiny2} alt='Domy Zarembiny'></img>
                     </div>
                     <div class='textZarembiny'>
                         <h2>LOKALIZACJA</h2>
@@ -110,12 +110,12 @@ const OnSale = () => {
                         <p>{description3}</p>
                     </div>
                     <div class='imageZarembiny'>
-                        <img src={OnSaleZarembiny3} alt='wizualizacja 3'></img>
+                        <img src={OnSaleZarembiny3} alt='Domy Zarembiny'></img>
                     </div>
                 </article>
                 <article class='description'>
                     <div class='imageZarembiny'>
-                        <img src={OnSaleZarembiny4} alt='wizualizacja 4'></img>
+                        <img src={OnSaleZarembiny4} alt='Domy Zarembiny'></img>
                     </div>
                     <div class='textZarembiny'>
                         <h2>OTOCZENIE</h2>
