@@ -6,6 +6,7 @@ import OnSaleZarembiny3 from '../images/OnSale-Zarembiny3.jpg';
 import OnSaleZarembiny4 from '../images/OnSale-Zarembiny4.jpg';
 import OnSaleZarembiny5 from '../images/OnSale-Zarembiny5.jpg';
 import OnSaleZarembiny6 from '../images/OnSale-Zarembiny6.jpg';
+import OnSaleZarembiny7 from '../images/OnSale-Zarembiny7.jpg';
 
 const OnSale = () => {
 
@@ -58,7 +59,22 @@ const OnSale = () => {
             <br></br>
             <br></br>
             Teren działki będzie wyrównany oraz wydzielony ogrodzeniem od strony ogrodu i między sąsiadującymi budynkami. 
+        </Fragment>
+    )
 
+    const description5 = (
+        <Fragment>
+            <ul>
+                <li>1 - 133,46m2 - ZAREZERWOWANY</li>
+                <li>2a - 93,85m2 - ZAREZERWOWANY</li>
+                <li><b>2b - 93,85m2 - WOLNY</b></li>
+                <li><b>3a - 93,85m2 - WOLNY</b></li>
+                <li><b>3b - 93,85m2 - WOLNY</b></li>
+                <li><b>4a - 93,85m2 - WOLNY</b></li>
+                <li><b>4b - 93,85m2 - WOLNY</b></li>
+                <li><b>5a - 92,54m2 - WOLNY</b></li>
+                <li><b>5b - 92,53m2 - WOLNY</b></li>
+            </ul>
         </Fragment>
     )
        
@@ -122,10 +138,18 @@ const OnSale = () => {
                         <p>{description4}</p>
                     </div>
                 </article>
+                <article class='description'>
+                    <div class='textZarembiny'>
+                        <h2>DOSTĘPNOŚĆ LOKALI</h2>
+                        <p>{description5}</p>
+                    </div>
+                    <div class='imageZarembiny'>
+                        <img src={OnSaleZarembiny7} alt='Domy Zarembiny'></img>
+                    </div>
+                </article>
             </section>
             </div>
         </>
-
     );
 }
  
